@@ -13,6 +13,6 @@ app.use('/api/articulos', require('./src/routes/articulos'));
 app.use('/api/yappy', require('./src/routes/yappy'));
 app.use('/api/archivos', require('./src/routes/archivos'));
 app.use('/api/suscripcion', require('./src/routes/suscripcion'));
-app.listen(process.env.PORT, ()=>{
-    console.log("Server corriendo en puerto",process.env.PORT)
+app.listen(3000, ()=>{
+    console.log("Server corriendo en puerto",3000)
 })
